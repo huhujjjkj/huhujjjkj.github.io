@@ -38,17 +38,19 @@ header {
 
 main {
     position: relative;
-    padding-top: 6em;
+    padding-top: 10em;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .main-video {
     width: 100%;
-    margin: 0 auto;
+    margin: 2em auto;
 }
 
 footer {
     position: relative;
-    padding: 0 8em 5em;
+    padding: 5em 8em;
 }
 
 footer img {
@@ -58,10 +60,6 @@ footer img {
 
 footer p {
     line-height: 1.4;
-}
-
-header + main {
-    padding-top: 6em;
 }
 
 .gallery {
@@ -76,7 +74,7 @@ header + main {
     position: relative;
     cursor: pointer;
 }
-  
+
 .gallery div img {
     object-fit: cover;
     max-width: 100%;
@@ -90,19 +88,7 @@ header + main {
     flex-basis: 350px;
 }
 
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(57, 57, 57, 0.502);
-    top: 0;
-    left: 0;
-    transform: scale(0);
-    transition: all 0.2s 0.1s ease-in-out;
-    color: #fff;
-    border-radius: 5px;
-    /* center overlay text */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h1 {
+    font-size: 1.6em;
+    padding-bottom: 2em;
 }
