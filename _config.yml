@@ -47,6 +47,10 @@ collections:
   ads:
       output: true
       permalink: /ads/:path/
+  music:
+      output: true
+      permalink: /music/:path/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
