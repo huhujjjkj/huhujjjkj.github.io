@@ -1,0 +1,11 @@
+---
+layout: default
+title: Tags
+permalink: /tags
+collection: tags
+---
+
+{{site.tags}}
+{% for tag in site.tags %}
+	{{tag}}
+{% endfor %}

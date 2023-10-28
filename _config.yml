@@ -38,18 +38,17 @@ lang: fr-FR
 encoding: UTF-8
 branch: main
 
+permalink: pretty
+
 plugins:
   - jekyll-feed
 
 collections_dir: collections
 
 collections:
-  ads:
+  videos:
       output: true
-      permalink: /ads/:path/
-  music:
-      output: true
-      permalink: /music/:path/
+      permalink: /videos/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
