@@ -5,6 +5,8 @@ var Lightbox = function(elem) {
     this.body = document.querySelector('.lightbox .body');
     this.content = document.querySelector('.lightbox .content');
     this.type = elem.getAttribute('lightbox');
+    this.text = elem.getAttribute('text');
+    this.title = elem.getAttribute('title');
     this.href = elem.getAttribute('url') || elem.getAttribute('href');
     this.width = 1024;
     this.height = 580;
@@ -107,8 +109,7 @@ Lightbox.prototype.loadVideo = function() {
 
 Lightbox.prototype.loadIframe = function() {
     this.setDimensions(this.width, this.height);
-  console.log('<iframe src="' + this.href + '" frameborder="0" allowfullscreen></iframe>')
-    this.body.innerHTML = '<iframe src="' + this.href + '" frameborder="0" allowfullscreen></iframe>';
+    this.body.innerHTML = '<iframe src="' + this.href + '&autoplay=1&color=000000&title=0&byline=0&portrait=0&progress_bar=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' + '<h2>' + this.title + '</h2>' + '<p>' + this.text + '</p>';
 }
 
 Lightbox.prototype.open = function() {

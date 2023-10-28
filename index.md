@@ -3,15 +3,24 @@ layout: default
 title: Home
 ---
 
-<iframe src="https://player.vimeo.com/video/699728566?h=a6862acbe1&color=000000&title=0&portrait=0" width="960" height="540" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="main-video"></iframe>
+<iframe 
+    src="https://player.vimeo.com/video/699728566?h=a6862acbe1&&autoplay=1&color=000000&title=0&byline=0&portrait=0&progress_bar=0" 
+    width="960" 
+    height="540" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen 
+    class="main-video">
+</iframe>
 
 <div class="gallery">
-    <div>
-        <a href="https://player.vimeo.com/video/800173443?h=5483ab9fdb" lightbox="iframe">
-            <img src="/assets/img/gif/hec-tomorrow.gif" alt="" />
-            <p>HEC - Tomorrow Is Our Business</p>
-        </a>
-    </div>
+    {% 
+        include block.html 
+        links='https://player.vimeo.com/video/800173443?h=5483ab9fdb' 
+        title='HEC - Tomorrow Is Our Business' 
+        image='/assets/img/gif/hec-tomorrow.gif' 
+        text='Mon texte sur HEC'
+    %}
     <div>
         <a href="/ads/urgence-darfour">
             <img src="/assets/img/gif/urgence-darfour.gif" alt="" />
