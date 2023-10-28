@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Jaia Rose - Feu, foi, force
 tags: [ music, homepage ]
 text: text jaia
-video: https://player.vimeo.com/video/875528021?h=70c3d77699&badge=0&autopause=0&quality_selector=1&progress_bar=1
+video_id: 875528021
+video_hash: 70c3d77699
 image: /assets/img/gif/jaia_rose-sale_soleil.gif
 ---

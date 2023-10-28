@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Urgence Darfour
 tags: [ ads ]
 text: "This campaign entitled “Dictators don't stop” was published in France in April 2012. 
@@ -16,6 +15,7 @@ since 2012.To find out more http://tomorrowisourbusiness.com/fr/
 ected for the Young Director Award of the Cannes Lions. 
 It was created for the brand: Urgence Darfour, by the advertising agencies: BEING and TBWA. 
 This film campaign is linked to the public interest and NGO industry."
-video: https://player.vimeo.com/video/40226565?h=70c3d77699&badge=0&autopause=0&quality_selector=1&progress_bar=1
+video_id: 40226565
+video_hash: 70c3d77699
 image: /assets/img/gif/urgence-darfour.gif
 ---
