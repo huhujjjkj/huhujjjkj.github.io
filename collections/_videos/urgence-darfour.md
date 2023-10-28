@@ -17,5 +17,5 @@ It was created for the brand: Urgence Darfour, by the advertising agencies: BEIN
 This film campaign is linked to the public interest and NGO industry."
 video_id: 40226565
 video_hash: 70c3d77699
-image: /assets/img/gif/urgence-darfour.gif
+image: urgence-darfour.gif
 ---

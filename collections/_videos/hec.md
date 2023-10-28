@@ -4,5 +4,5 @@ tags: [ ads, homepage ]
 text: Text HEC
 video_id: 800173443
 video_hash: 5483ab9fdb
-image: /assets/img/gif/hec-tomorrow.gif
+image: hec-tomorrow.gif
 ---
