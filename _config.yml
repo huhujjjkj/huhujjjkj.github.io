@@ -47,8 +47,6 @@ collections_dir: collections
 
 collections:
   videos:
-      output: true
-      permalink: /videos/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
