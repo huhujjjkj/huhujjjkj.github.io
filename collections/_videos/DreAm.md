@@ -1,6 +1,6 @@
 ---
 title: Dream
-tags: [ ads ]
+tags: [ music ]
 video_id: 33020897
 video_hash: 7285f368ce
 image: dream.gif
