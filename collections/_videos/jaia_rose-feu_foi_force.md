@@ -7,5 +7,3 @@ image: jaia_rose-feu_foi_force.gif
 published: true
 order : 3000
 ---
-
-Text jaia
