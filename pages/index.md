@@ -14,8 +14,9 @@ permalink: /
     class="main-video">
 </iframe>
 
+{% assign ordered_videos = site.videos | sort:"order" %}
 <div class="gallery">
-    {% for video in site.videos %}
+    {% for video in ordered_videos %}
         {% if video.tags contains 'homepage' %}
             {% include block.html id=video.video_id hash=video.video_hash title=video.title image=video.image text=video.text %}
         {% endif %}
