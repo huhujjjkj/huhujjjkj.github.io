@@ -1,6 +1,6 @@
 ---
 title: Designer's Days
-tags: [ ads ]
+tags: [  ]
 video_id: 121258508
 video_hash: be73d4b829
 image: designer's days.gif
