@@ -1,6 +1,6 @@
 ---
 title: John Jastszebski - The Set Up
-tags: [ music ]
+tags: [  ]
 video_id: 86301814
 video_hash: f5b3ded64d
 image: john jastszebski - the set up.gif
