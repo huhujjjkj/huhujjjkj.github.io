@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landing
 title: All Works
 permalink: /all-works
 ---
