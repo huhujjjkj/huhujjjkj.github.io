@@ -7,5 +7,3 @@ image: hec-tomorrow.gif
 published: true
 order : 1000
 ---
-
-Text HEC
