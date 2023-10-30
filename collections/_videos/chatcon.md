@@ -1,6 +1,6 @@
 ---
 title: Grems - Chat Con
-tags: [ music ]
+tags: [  ]
 video_id: 34834449
 video_hash: 143b91b47a
 image: grems - chat con.gif
