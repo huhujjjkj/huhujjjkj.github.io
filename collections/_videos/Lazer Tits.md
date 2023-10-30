@@ -1,6 +1,6 @@
 ---
 title: Lazer Tits
-tags: [ ads ]
+tags: [  ]
 video_id: 53506571
 video_hash: a49e8be1cb
 image: lazer tits.gif
