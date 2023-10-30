@@ -1,6 +1,6 @@
 ---
 title: Smells Like Hip-Hop
-tags: [ music ]
+tags: [  ]
 video_id: 875125059
 video_hash: e224fdd53f
 image: hsmells like hip hop.gif
