@@ -1,6 +1,6 @@
 ---
 title: Résiste
-tags: [ music ]
+tags: [  ]
 video_id: 139417121
 video_hash: 7a4b7fc818
 image: Resiste.gif
