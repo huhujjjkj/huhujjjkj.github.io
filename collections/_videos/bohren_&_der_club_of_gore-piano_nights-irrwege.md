@@ -1,5 +1,5 @@
 ---
-title: Bohren & Der Club Of Gore - Piano Nights - Irrwege
+title: Bohren & Der Club Of Gore - Irrwege
 tags: [ music ]
 video_id: 138066361
 video_hash: 420cb100be
