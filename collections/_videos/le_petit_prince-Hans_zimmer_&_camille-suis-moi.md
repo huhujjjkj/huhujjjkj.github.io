@@ -1,5 +1,5 @@
 ---
-title: Le Petit Prince - Hans Zimmer & Camille - Suis-Moi
+title: Hans Zimmer & Camille - Suis-Moi
 tags: [ music ]
 video_id: 134406428
 video_hash: c80f5e547a
