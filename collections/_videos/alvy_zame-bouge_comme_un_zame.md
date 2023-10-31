@@ -1,5 +1,5 @@
 ---
-title: Alvy Zamé - Bouge comme un Zamé
+title: Alvy Zamé - Bouge Comme Un Zamé
 tags: [  ]
 video_id: 876879380
 video_hash: a1e9cbca15
