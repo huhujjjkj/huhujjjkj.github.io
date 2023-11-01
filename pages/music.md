@@ -4,7 +4,7 @@ title: Music
 permalink: /music
 ---
 
-{% assign ordered_videos = site.videos | sort:"order" %}
+{% assign ordered_videos = site.videos | sort: "order" %}
 <div class="gallery">
     {% for video in ordered_videos %}
         {% if video.tags contains 'music' %}

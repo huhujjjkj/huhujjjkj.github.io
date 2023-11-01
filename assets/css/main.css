@@ -80,12 +80,12 @@ footer {
     padding: 5em;
 }
 
-footer img {
+.bio img {
     float: left;
     margin-right: 2em;
 }
 
-footer p {
+.bio p {
     line-height: 1.4;
 }
 
