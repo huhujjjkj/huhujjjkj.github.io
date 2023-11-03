@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <iframe 
-    src="https://player.vimeo.com/video/699728566?h=a6862acbe1&&autoplay=1&color=000000&title=0&byline=0&portrait=0&progress_bar=0" 
+    src="https://player.vimeo.com/video/699728566?h=a6862acbe1&&autoplay=1&color=000000&title=0&byline=0&portrait=0&progress_bar=0&muted=1" 
     width="1500" 
     height="800" 
     frameborder="0" 
