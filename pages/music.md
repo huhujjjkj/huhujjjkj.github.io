@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: default
 title: Music
 permalink: /music
 ---
