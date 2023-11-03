@@ -86,18 +86,21 @@ main {
     padding-top: 10em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 0px;
+}
+.gallery-home {
+    padding-top: 1em;
 }
 
 .gallery > div {
-    flex-basis: 25%;
     position: relative;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .gallery div img {
@@ -112,6 +115,11 @@ main {
     top: -50%;
     text-transform: uppercase;
     text-align: center;
+}
+
+.gallery a:hover {
+    background-color: #000;
+    display: block;
 }
 
 .gallery::after {
