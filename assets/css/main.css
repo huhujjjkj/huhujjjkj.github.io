@@ -48,7 +48,7 @@ nav a:hover {
 .home-title {
     width: 20%;
     font-size: 1.2em;
-    padding-left: 7em;
+    padding-left: 1.5em;
 }
 
 .main-nav li,
@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .second-nav {
-    width: 15%;
+    width: 20%;
 }
 
 .third-nav {
@@ -75,7 +75,7 @@ nav a:hover {
 main {
     position: relative;
     padding-top: 10em;
-    width: 85%;
+    width: 100%;
     margin: 0 auto 3em;
 }
 
@@ -87,16 +87,18 @@ main {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    gap: 10px;
-
+    justify-content: center;
+    gap: 0px;
 }
 
 .gallery > div {
-    flex-basis: 349px; /* width: 350px; */
+    flex-basis: 25%;
     position: relative;
     cursor: pointer;
-    top: -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .gallery div img {
@@ -104,7 +106,6 @@ main {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
-    border-radius: 5px;
 }
 
 .gallery p {
