@@ -10,7 +10,7 @@ header {
     top: 0;
     z-index: 1000;
     background-color: #000;
-    padding: 3em 4em;
+    padding: 3em 0;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     font-size: 1.4em;
-    padding-bottom: 1em;
+    padding: 2em 0;
 }
 
 /* Menu */
@@ -40,25 +40,34 @@ nav a:hover {
 
 .home-title,
 .main-nav,
-.second-nav {
+.second-nav,
+.third-nav {
     float: left;
 }
 
 .home-title {
     width: 20%;
     font-size: 1.2em;
+    padding-left: 7em;
 }
 
-.main-nav {
-    width: 55%;
-}
-
-.main-nav li, .second-nav li {
+.main-nav li,
+.second-nav li ,
+.third-nav li {
     float: left;
     padding-left: 3em;
 }
 
+.main-nav {
+    width: 45%;
+    padding-left: 6em;
+}
+
 .second-nav {
+    width: 17%;
+}
+
+.third-nav {
     width: 15%;
 }
 
