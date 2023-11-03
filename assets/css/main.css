@@ -9,7 +9,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 1000;
-    padding: 3em 0;
+    padding: 2em 0;
 }
 
 h1 {
@@ -104,7 +104,7 @@ main {
     text-align: center;
 }
 
-.gallery div img {
+.gallery img {
     object-fit: cover;
     max-width: 100%;
     height: auto;
@@ -117,11 +117,6 @@ main {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.2em;
-}
-
-.gallery a:hover {
-    background-color: #000;
-    display: block;
 }
 
 .gallery::after {
