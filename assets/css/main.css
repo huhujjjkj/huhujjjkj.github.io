@@ -66,7 +66,7 @@ nav a:hover {
 main {
     position: relative;
     padding-top: 10em;
-    width: 90%;
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -97,10 +97,12 @@ footer {
     gap: 10px;
 
 }
+
 .gallery > div {
-    flex-basis: 370px; /* width: 350px; */
+    flex-basis: 320px; /* width: 350px; */
     position: relative;
     cursor: pointer;
+    top: -50%;
 }
 
 .gallery div img {
@@ -110,9 +112,14 @@ footer {
     vertical-align: middle;
     border-radius: 5px;
 }
+
 .gallery p {
-    padding-top: 1em;
+    position: relative;
+    top: -50%;
+    text-transform: uppercase;
+    text-align: center;
 }
+
 .gallery::after {
     content: "";
     flex-basis: 370px;
@@ -120,9 +127,7 @@ footer {
 
 /* Responsive */
 @media all and (max-width: 991px) {
-
-    label
-    {
+    label {
         width: 30px;
         display: flex;
         justify-content: center;
