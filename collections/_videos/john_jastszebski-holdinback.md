@@ -1,5 +1,5 @@
 ---
-title: JJohn Jastszebski - Holdin'Back
+title: John Jastszebski - Holdin'Back
 tags: [ music ]
 video_id: 67546008
 video_hash: 3e690346e8
