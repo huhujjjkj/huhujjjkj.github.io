@@ -9,7 +9,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 1000;
-    padding: 2em 0;
+    padding: 1.5em 0;
 }
 
 h1 {
@@ -30,6 +30,8 @@ header #toggle {
 
 .home-title,
 nav a {
+    display: block;
+    padding: 0.5em;
     text-transform: uppercase;
 }
 
@@ -68,7 +70,12 @@ nav a:hover {
 }
 
 .third-nav {
-    width: 20%;
+    float: right;
+    margin-right: 2em;
+}
+
+.third-nav li {
+    padding-left: 1em;
 }
 
 /* Main content */
