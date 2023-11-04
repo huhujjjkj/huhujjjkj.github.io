@@ -97,6 +97,7 @@ main {
     justify-content: space-between;
     gap: 0px;
 }
+
 .gallery-home {
     padding-top: 1em;
 }
@@ -126,9 +127,26 @@ main {
     font-size: 1.2em;
 }
 
+.gallery a .img-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+}
+
+.gallery a:hover .img-overlay {
+    background-color: rgba(0,0,0,0.6);
+    transition: .5s;
+}
+
+.gallery a:hover {
+    opacity: 0.8;
+}
+
 .gallery::after {
     content: "";
-    flex-basis: 370px;
 }
 
 /* Bio */
