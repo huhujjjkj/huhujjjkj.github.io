@@ -156,10 +156,6 @@ main {
     align-items: center;
 }
 
-.bio img {
-    width: 50%;
-}
-
 .bio p {
     line-height: 1.4;
     font-size: 1.4em;
