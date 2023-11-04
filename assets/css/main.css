@@ -118,7 +118,7 @@ main {
     vertical-align: middle;
 }
 
-.gallery p {
+.gallery h2 {
     position: relative;
     top: -50%;
     text-transform: uppercase;
@@ -163,12 +163,14 @@ main {
     }
 }
 
+/* Main video (Full screen) */
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
     height: 0; overflow: hidden;
     max-width: 100%; height: auto;
 }
+
 .embed-container iframe, .embed-container object, .embed-container embed {
    position: absolute;
    top: 0;
