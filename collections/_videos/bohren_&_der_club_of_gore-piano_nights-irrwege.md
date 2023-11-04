@@ -1,5 +1,5 @@
 ---
-title: Bohren & Der Club Of Gore - Irrwege (UNOFFICIAL)
+title: Bohren - Irrwege (UNOFFICIAL)
 tags: [ music ]
 video_id: 138066361
 video_hash: 420cb100be
