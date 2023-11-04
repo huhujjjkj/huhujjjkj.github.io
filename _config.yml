@@ -63,6 +63,7 @@ exclude:
 #   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - CNAME
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
