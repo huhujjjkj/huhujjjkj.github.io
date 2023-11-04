@@ -1,6 +1,6 @@
 ---
 title: Boxing Club Bordelais
-tags: [  ]
+tags: [ ads ]
 video_id: 85950087
 video_hash: a4c8f78fe3
 image: Boxing club bordelais.gif
