@@ -137,6 +137,7 @@ main {
     display: flex;
     align-items: center;
 }
+
 .bio img {
     float: left;
     width: 50%;
