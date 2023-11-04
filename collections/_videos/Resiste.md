@@ -1,5 +1,5 @@
 ---
-title: FFrance Gall - Résiste (Musical Comedy)
+title: France Gall - Résiste
 tags: [  ]
 video_id: 139417121
 video_hash: 7a4b7fc818
