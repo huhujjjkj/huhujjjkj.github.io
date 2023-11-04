@@ -1,5 +1,5 @@
 ---
-title: Siemens - #monvêtementpréféré
+title: Siemens - monvêtementpréféré
 tags: [  ]
 video_id: 108127109
 video_hash: 5c88882880
