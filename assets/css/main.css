@@ -23,11 +23,6 @@ h2 {
 }
 
 /* Menu */
-header label,
-header #toggle {
-    display: none;
-}
-
 .home-title,
 nav a {
     display: block;
@@ -40,9 +35,8 @@ nav a:hover {
 }
 
 .home-title,
-.main-nav,
-.second-nav,
-.third-nav {
+.first-nav,
+.second-nav {
     float: left;
 }
 
@@ -52,7 +46,7 @@ nav a:hover {
     padding-left: 1.5em;
 }
 
-.main-nav li,
+.first-nav li,
 .second-nav li ,
 .third-nav li {
     float: left;
@@ -60,7 +54,7 @@ nav a:hover {
     font-size: 1.2em;
 }
 
-.main-nav {
+.first-nav {
     width: 45%;
     padding-left: 6em;
 }
@@ -163,21 +157,68 @@ main {
     padding: 0 2em;
 }
 
+header label,
+#toggle {
+    display: none;
+}
+
 /* Responsive */
 @media all and (max-width: 991px) {
-    label {
+    .home-title {
+        width: 75%;
+    }
+
+    .home-title {
+        float: left;
+    }
+
+    .first-nav,
+    .second-nav,
+    .third-nav,
+    .first-nav li,
+    .second-nav li,
+    .third-nav li {
+        float: none;
+        padding: 0 0 0 1em;
+        width: 100%;
+    }
+
+    .embed-container {
+        margin-top: 10em;
+    }
+
+    header label {
         width: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
+        display: block;
+        float: right;
+        margin: 0 1em;
         font-size: 40px;
-        color: white;
+        color: #fff;
         cursor: pointer;
     }
 
-    #toggle:checked {
+    .main-nav {
+        display: none;
+        background: #48435C;
+        height: 220px;
+        text-align: center;
+    }
+
+    #toggle:checked + .main-nav {
         display: block;
+        clear: both;
+        height: 100%;
+        background: #000;
+    }
+
+    .gallery,
+    .gallery > div {
+        display: block;
+    }
+
+    .lightbox .content {
+        width: 512px;
+        height: 290px;
     }
 }
 
@@ -189,10 +230,12 @@ main {
     max-width: 100%; height: auto;
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

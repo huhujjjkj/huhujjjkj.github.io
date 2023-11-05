@@ -10,8 +10,6 @@ var Lightbox = function(elem) {
     this.id = elem.getAttribute('video-id');
     this.hash = elem.getAttribute('video-hash');
     this.href = elem.getAttribute('url') || elem.getAttribute('href');
-    this.width = 1024;
-    this.height = 580;
     this.image = null;
     this.video = null;
     this.init();
