@@ -226,6 +226,15 @@ header label,
         font-size: 1em;
         text-align: center;
     }
+
+    .bio {
+        display: block;
+    }
+
+    .bio p {
+        padding-top: 2em;
+        font-size: 1em;
+    }
 }
 
 /* Main video (Full screen) */
