@@ -165,7 +165,7 @@ header label,
 /* Responsive */
 @media all and (max-width: 991px) {
     .home-title {
-        width: 75%;
+        width: auto;
     }
 
     .home-title {
@@ -217,8 +217,8 @@ header label,
     }
 
     .lightbox .content {
-        width: 512px;
-        height: 290px;
+        width: 100%;
+        height: 100%;
     }
 }
 
