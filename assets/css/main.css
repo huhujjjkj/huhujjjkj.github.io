@@ -90,7 +90,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 0px;
+    gap: 1em;
 }
 
 .gallery-home {
@@ -120,6 +120,7 @@ main {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.2em;
+    padding: 0;
 }
 
 .gallery a .img-overlay {
