@@ -213,9 +213,11 @@ header label,
         background: #000;
     }
 
-    .gallery,
-    .gallery > div {
-        display: block;
+    .gallery h2 {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        font-size: 1.1em;
     }
 
     .lightbox .content {
