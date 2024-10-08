@@ -1,6 +1,6 @@
 ---
 title: Anaë
-tags: [ ads ]
+tags: [ ads, refrolex ]
 video_id: 875528527
 video_hash: d81716a33c
 image: anae.gif
