@@ -1,6 +1,6 @@
 ---
 title: Pichet
-tags: [ refolex ]
+tags: [ refrolex ]
 video_id: 131d118ef0
 video_hash: d81716a33c
 image: pichet.gif
